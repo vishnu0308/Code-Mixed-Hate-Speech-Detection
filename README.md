@@ -38,4 +38,14 @@ Text to classify (Press q to exit) : have a great day
 NAG
 Text to classify (Press q to exit) : q
 ```
+## Best Model Architecture
+Concatenation of text and translated text goes as input to the model.
+
+![alt text](https://github.com/vishnu0308/Code-Mixed-Hate-Speech-Detection/blob/main/detect/best_model_architecture.png?raw=true)
+
+## References
+
+CNN-1D architecture is from https://arxiv.org/pdf/1811.05145.pdf
+
+GLoVe pretrained twitter word embeddings from https://nlp.stanford.edu/projects/glove/
 
